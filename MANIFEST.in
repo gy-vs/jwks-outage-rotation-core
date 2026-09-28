@@ -1,0 +1,6 @@
+include LICENSE
+include README.md
+include jwt/py.typed
+graft tests
+recursive-exclude * *.py[co]
+recursive-exclude * __pycache__
